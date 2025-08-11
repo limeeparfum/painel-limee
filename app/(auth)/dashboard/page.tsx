@@ -1,6 +1,6 @@
 'use client';
-import Shell from '@/components/Shell';
-import { useStore } from '@/components/store';
+import Shell from '../../../components/Shell';
+import { useStore } from '../../../components/store';
 
 export default function Dashboard() {
   const vendas = useStore(s => s.vendas);
